@@ -1,0 +1,251 @@
+{
+  "manifest_version": "1.1",
+  "purpose": "STATIC_DISCOVERY_ASSET_SNAPSHOT",
+  "origin": {
+    "repository": "github.com/arliedos/intelligent-test-selection-parcelflow-demo",
+    "revision": "d751980ef8d381a43a159b56ac7cf2c568990270"
+  },
+  "intended_destination": {
+    "repository": "github.com/arliedos/parcelflow-test-assets-demo",
+    "visibility": "private",
+    "publication": "NOT_AUTHORIZED_BY_THIS_MANIFEST"
+  },
+  "application_compatibility": "NOT_VERIFIED",
+  "catalogue_ids": [
+    "TC-001",
+    "TC-002",
+    "TC-003",
+    "TC-004",
+    "TC-005",
+    "TC-006",
+    "TC-007",
+    "TC-008",
+    "TC-009",
+    "TC-010",
+    "TC-011",
+    "TC-012",
+    "TC-013",
+    "TC-014",
+    "TC-015",
+    "TC-016",
+    "TC-017",
+    "TC-018",
+    "TC-019",
+    "TC-020",
+    "TC-021",
+    "TC-022",
+    "TC-023",
+    "TC-024",
+    "TC-025",
+    "TC-026",
+    "TC-027",
+    "TC-028",
+    "TC-029",
+    "TC-030",
+    "TC-031"
+  ],
+  "assets": [
+    {
+      "path": "testcatalogue/parcelflow-test-inventory-v1.0.csv",
+      "role": "inventory_paths",
+      "bytes": 18293,
+      "sha256": "ae513de04b6f0696a19aa1063572c9602ffd5d962924d3cd95d8577404d7ec53",
+      "source_sha256": "ae513de04b6f0696a19aa1063572c9602ffd5d962924d3cd95d8577404d7ec53",
+      "source_bytes": 18293,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_api.py",
+      "role": "definition_paths",
+      "bytes": 11051,
+      "sha256": "5ec0592f17729703b783499d92afd945963323489471fcbfe3a27c8103368e34",
+      "source_sha256": "5ec0592f17729703b783499d92afd945963323489471fcbfe3a27c8103368e34",
+      "source_bytes": 11051,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_auth.py",
+      "role": "definition_paths",
+      "bytes": 1036,
+      "sha256": "4b0c7faffb19a2c8aaed80a997ee234fb46cd2a9f404c487b15600c1747f7914",
+      "source_sha256": "4b0c7faffb19a2c8aaed80a997ee234fb46cd2a9f404c487b15600c1747f7914",
+      "source_bytes": 1036,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_config.py",
+      "role": "definition_paths",
+      "bytes": 4110,
+      "sha256": "f82e5bd97dcd18eccadafe9e5b8e951b84e635aca3f83b8df1d23d0e278a9966",
+      "source_sha256": "f82e5bd97dcd18eccadafe9e5b8e951b84e635aca3f83b8df1d23d0e278a9966",
+      "source_bytes": 4110,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_consumers.py",
+      "role": "definition_paths",
+      "bytes": 3650,
+      "sha256": "c363742cc651bbb4ca0a55849b0eaa1b7e5504ecbdb356adae84eb0a114c4fd8",
+      "source_sha256": "c363742cc651bbb4ca0a55849b0eaa1b7e5504ecbdb356adae84eb0a114c4fd8",
+      "source_bytes": 3650,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_contract.py",
+      "role": "definition_paths",
+      "bytes": 4719,
+      "sha256": "15eddb8ce2e1a892b6659ba8ac022ef117a13ac42e568b3523de109687a0e792",
+      "source_sha256": "55520654e8d73fb911dec92ba4dc52e1674a826eb380f89b1e856918d2373b91",
+      "source_bytes": 4923,
+      "transformation": "DOCSTRING_ONLY"
+    },
+    {
+      "path": "tests/test_db.py",
+      "role": "definition_paths",
+      "bytes": 2037,
+      "sha256": "a2d68ee080c50058cd0da3e4795417be787d93952dab6d67370233933f9e33d2",
+      "source_sha256": "a2d68ee080c50058cd0da3e4795417be787d93952dab6d67370233933f9e33d2",
+      "source_bytes": 2037,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_environment_behavior.py",
+      "role": "definition_paths",
+      "bytes": 5232,
+      "sha256": "daa04693ecda2c52a9c2d6580281fef498a3501e773102a78cfe867b445d1fc0",
+      "source_sha256": "fdc2c224ec45bb461dcaa680650d127bf150edaa950a6e9ed39adad7971bf4c9",
+      "source_bytes": 5546,
+      "transformation": "DOCSTRING_ONLY"
+    },
+    {
+      "path": "tests/test_gateway.py",
+      "role": "definition_paths",
+      "bytes": 2271,
+      "sha256": "639eebe14228a3d8808520a3509c412acd93f86a92554d826db54ceaedfde759",
+      "source_sha256": "639eebe14228a3d8808520a3509c412acd93f86a92554d826db54ceaedfde759",
+      "source_bytes": 2271,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_pricing.py",
+      "role": "definition_paths",
+      "bytes": 3367,
+      "sha256": "8887e3fea1759ba30ca90988c19a498ba68e1fff1cb652e63c00c1f131e456d1",
+      "source_sha256": "8887e3fea1759ba30ca90988c19a498ba68e1fff1cb652e63c00c1f131e456d1",
+      "source_bytes": 3367,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_runtime_snapshot.py",
+      "role": "definition_paths",
+      "bytes": 1862,
+      "sha256": "257c1a0a0ca74955ccc835bafbd59950f86c6bf68064b3b6e81773897e9efaa3",
+      "source_sha256": "257c1a0a0ca74955ccc835bafbd59950f86c6bf68064b3b6e81773897e9efaa3",
+      "source_bytes": 1862,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_runtime_snapshot_check.py",
+      "role": "definition_paths",
+      "bytes": 4332,
+      "sha256": "498065dacfa4c4405e4ae4024b1491cd0d201c302576aba4a6a935755fbafd05",
+      "source_sha256": "498065dacfa4c4405e4ae4024b1491cd0d201c302576aba4a6a935755fbafd05",
+      "source_bytes": 4332,
+      "transformation": "NONE"
+    },
+    {
+      "path": "tests/test_validation.py",
+      "role": "definition_paths",
+      "bytes": 2194,
+      "sha256": "9f9fb4866d96d4c874acd159fe4893b87fa80691f15a55bf93d9a5cc095547b9",
+      "source_sha256": "9f9fb4866d96d4c874acd159fe4893b87fa80691f15a55bf93d9a5cc095547b9",
+      "source_bytes": 2194,
+      "transformation": "NONE"
+    },
+    {
+      "path": "openapi/postman_collection.json",
+      "role": "definition_paths",
+      "bytes": 3784,
+      "sha256": "d21ade64fa5bda44f738603a0c92f935bc3b9c5c2c8cd78dbedb7a963543c04f",
+      "source_sha256": "d21ade64fa5bda44f738603a0c92f935bc3b9c5c2c8cd78dbedb7a963543c04f",
+      "source_bytes": 3784,
+      "transformation": "NONE"
+    },
+    {
+      "path": "ui/assets/validation.test.js",
+      "role": "definition_paths",
+      "bytes": 1554,
+      "sha256": "228e17c84fe906ba695ef9974df8b8cbfda2eb33833d01191c2433554b7d8c04",
+      "source_sha256": "228e17c84fe906ba695ef9974df8b8cbfda2eb33833d01191c2433554b7d8c04",
+      "source_bytes": 1554,
+      "transformation": "NONE"
+    },
+    {
+      "path": "ui/index.html",
+      "role": "definition_paths",
+      "bytes": 1238,
+      "sha256": "fdc0a87dcdfcc6f2a1a01c3df78bd6b87ee4368eb83e2e4c873dc8a6f5e9852b",
+      "source_sha256": "fdc0a87dcdfcc6f2a1a01c3df78bd6b87ee4368eb83e2e4c873dc8a6f5e9852b",
+      "source_bytes": 1238,
+      "transformation": "NONE"
+    },
+    {
+      "path": "docs/architecture.md",
+      "role": "context_paths",
+      "bytes": 3004,
+      "sha256": "80fc226b4f81a327d4157f38a18ecaa6809ff3b7bc1a298b9869823cc9a0cafc",
+      "source_sha256": "80fc226b4f81a327d4157f38a18ecaa6809ff3b7bc1a298b9869823cc9a0cafc",
+      "source_bytes": 3004,
+      "transformation": "NONE"
+    },
+    {
+      "path": "docs/component-map.md",
+      "role": "context_paths",
+      "bytes": 1699,
+      "sha256": "11203f7bdb10f3d6bc09f90adb8e979634ecf12fffaf25ff48045dfd689c3627",
+      "source_sha256": "6806cf7fff57754049bab67c084a6ed105967e06ba77663d315d8d8a452efe1a",
+      "source_bytes": 1884,
+      "transformation": "DOCUMENTATION_ONLY"
+    },
+    {
+      "path": "docs/requirements.md",
+      "role": "context_paths",
+      "bytes": 1641,
+      "sha256": "9eeff1ce3a00506b1e02bd0d76fde1869177c24b6eae95c8c6a13cb2e2fcf5f8",
+      "source_sha256": "275333b534acbbb68e730c7b7fd830600b03140c4b05a99147ee28d22829ee55",
+      "source_bytes": 1719,
+      "transformation": "DOCUMENTATION_ONLY"
+    }
+  ],
+  "reference_classification": {
+    "inventory_membership": "Declared catalogue only",
+    "definitions_and_manual_targets": [
+      "tests/test_api.py",
+      "tests/test_auth.py",
+      "tests/test_config.py",
+      "tests/test_consumers.py",
+      "tests/test_contract.py",
+      "tests/test_db.py",
+      "tests/test_environment_behavior.py",
+      "tests/test_gateway.py",
+      "tests/test_pricing.py",
+      "tests/test_runtime_snapshot.py",
+      "tests/test_runtime_snapshot_check.py",
+      "tests/test_validation.py",
+      "openapi/postman_collection.json",
+      "ui/assets/validation.test.js",
+      "ui/index.html"
+    ],
+    "supporting_context": [
+      "docs/architecture.md",
+      "docs/component-map.md",
+      "docs/requirements.md"
+    ],
+    "imports_and_application_dependencies": "External dependencies, not additional retrieval authorization",
+    "incidental_references": "Do not recursively expand scope from file references"
+  },
+  "execution": "NOT_RUN; application dependencies intentionally omitted",
+  "derivative_version": "sanitized-local-v0.1",
+  "derivation": "Selected descriptive docstrings and documentation wording normalized; executable statements and catalogue unchanged",
+  "parent_manifest_sha256": "187675fdb8d926c3358c1ad67550f86d8306f94e36341f9097b39517837b5ac8"
+}
