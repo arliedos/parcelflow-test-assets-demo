@@ -46,13 +46,25 @@
   ],
   "assets": [
     {
-      "path": "testcatalogue/parcelflow-test-inventory-v1.0.csv",
+      "path": "testcatalogue/ParcelFlow-Test-Inventory-PF-TI-001-v1.0.xlsx",
       "role": "inventory_paths",
-      "bytes": 18293,
-      "sha256": "ae513de04b6f0696a19aa1063572c9602ffd5d962924d3cd95d8577404d7ec53",
-      "source_sha256": "ae513de04b6f0696a19aa1063572c9602ffd5d962924d3cd95d8577404d7ec53",
-      "source_bytes": 18293,
-      "transformation": "NONE"
+      "bytes": 23438,
+      "sha256": "3c42154bf41a924a2fe73c036a8a061b28f730d324f0d3a59c7f49362dbef500",
+      "transformation": "DOCUMENT_FORMAT (generated from the same 31-record catalogue)"
+    },
+    {
+      "path": "testcatalogue/ParcelFlow-Test-Plan-and-Specification-PF-TP-001-v1.0.docx",
+      "role": "inventory_paths",
+      "bytes": 48644,
+      "sha256": "c2d78bf66171d3261965afd853303f776503c620ff2707de1bfa6942d7acdcf6",
+      "transformation": "DOCUMENT_FORMAT (generated from the same 31-record catalogue)"
+    },
+    {
+      "path": "testcatalogue/ParcelFlow-Regression-Test-Catalogue-PF-TCS-001-v1.0.pdf",
+      "role": "inventory_paths",
+      "bytes": 22639,
+      "sha256": "a76b11b6e9c1c287459bb09854b4c393127c48e50982c5ce45ec918156cf4669",
+      "transformation": "DOCUMENT_FORMAT (generated from the same 31-record catalogue)"
     },
     {
       "path": "tests/test_api.py",
@@ -245,7 +257,6 @@
     "incidental_references": "Do not recursively expand scope from file references"
   },
   "execution": "NOT_RUN; application dependencies intentionally omitted",
-  "derivative_version": "sanitized-local-v0.1",
-  "derivation": "Selected descriptive docstrings and documentation wording normalized; executable statements and catalogue unchanged",
-  "parent_manifest_sha256": "187675fdb8d926c3358c1ad67550f86d8306f94e36341f9097b39517837b5ac8"
+  "derivative_version": "documents-v1.0 (scenario E1: inventory supplied as XLSX/DOCX/PDF instead of CSV)",
+  "derivation": "Selected descriptive docstrings and documentation wording normalized; executable statements and catalogue unchanged"
 }
